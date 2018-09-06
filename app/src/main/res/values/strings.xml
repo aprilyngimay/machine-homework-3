@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BURGER ORDERING FORM</string>
+    <string name="types_burger">TYPES OF BURGER</string>
+    <string name="chicken_order">CHICKEN</string>
+    <string name="beef_order">BEEF</string>
+    <string name="add_ons">ADD-ONS</string>
+    <string name="bacon_addon">BACON</string>
+    <string name="pine_addon">PINEAPPLE</string>
+    <string name="lettuce_addon">LETTUCE</string>
+    <string name="pickles_addon">PICKLES</string>
+    <string name="cheese_addon">CHEESE</string>
+    <string name="mustard_addon">MUSTARD</string>
+    <string name="add_cart">ADD TO CART</string>
+    <string name="name_text">NAME</string>
+    <string name="name_field">Enter your name</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="phone_text">PHONE NUMBER</string>
+    <string name="phone_field">Enter your phone number</string>
+    <string name="address_text">ADDRESS</string>
+    <string name="address_field">Enter your address</string>
+    <string name="review_page">REVIEW ORDER PAGE</string>
+    <string name="submit_button">SUBMIT</string>
+    <string name="back_button">BACK</string>
+    <string name="tv_burger">Types of Burger:</string>
+    <string name="tv_addon">Add-Ons:</string>
+</resources>
