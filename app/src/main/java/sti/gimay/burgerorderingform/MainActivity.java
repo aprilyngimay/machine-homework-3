@@ -92,16 +92,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    protected void onResume() {
-        name_field.setText("");
-        phone_field.setText("");
-        address_field.setText("");
-        bacon_addon.setChecked(false);
-        pine_addon.setChecked(false);
-        lettuce_addon.setChecked(false);
-        pickles_addon.setChecked(false);
-        cheese_addon.setChecked(false);
-        mustard_addon.setChecked(false);
-        super.onResume();
+    public void onBackPressed() {
+        Intent a = new Intent(Intent.ACTION_MAIN);
+        a.addCategory(Intent.CATEGORY_HOME);
+        a.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(a);
+        super.onBackPressed();
     }
 }

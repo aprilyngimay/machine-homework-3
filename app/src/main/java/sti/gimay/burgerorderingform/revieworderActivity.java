@@ -56,6 +56,7 @@ public class revieworderActivity extends AppCompatActivity implements View.OnCli
         switch (view.getId()){
             case R.id.submit_button:
                 Toast.makeText(this, "Order submitted", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.back_button:
                 this.finish();
